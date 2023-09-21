@@ -1,0 +1,33 @@
+p {
+    text-align: center;
+}
+h1{
+    text-align: center;
+}
+
+.flutter  {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.java {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container{
+    text-align: center;
+    
+}
+
+.b1{
+background-color: black;
+color: white;
+font-family: verdana;
+font-size: 12px;
+
+}
