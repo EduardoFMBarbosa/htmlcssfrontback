@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Sarala&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    font-size: 100%;
+    background: linear-gradient(180deg, rgba(176, 189, 232, 0.00) 0%, #B2BFEE 11.19%, rgba(178, 191, 238, 0.58) 98.96%);
+}
+
+
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+}
+
+.cabecalho-imagem {
+    height: 150px;
+}
+
+.cabecalho-menu {
+    display: flex;
+    gap: 32px;
+}
+
+.cabecalho-menu-item-1 {
+    font-family: 'Sarala', sans-serif;
+    color: black;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.meio {
+    margin-bottom: 48px;
+    border-top: 0.4px solid black;
+}
+
+.meio-principal {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.meio-principal-escrito {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.meio-principal-escrito-titulo {
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 40px;
+    color: black;
+}
+
+.meio-principal-escrito-subtitulo {
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: black;
+}
+
+.meio-principal-escrito-botao {
+    background-color: peru ;
+    width: 180px;
+    height: 60px;
+    border: none;
+    box-shadow: 4px 5px 4px; color: black(0, 0, 0, 0.25);
+    border-radius: 20px;
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 19px;
+    color: black;
+}
+
+.meio-principal-escrito-botao:hover {
+background-color: rgba(236, 214, 196, 0.53);
+}
+
+.meio-principal-escrito-imagem {
+    width:  480px;
+    height: 240px;
+    border-radius: 20px;
+    padding-top: 10px;
+    
+}
+
+.meio-secundario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    margin-top: 48px;
+}
+
+.meio-secundario-titulo {
+    border-top: 0.4px solid black;
+    padding-top: 48px;
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size:  24px;
+    color: black;
+    margin-bottom: 16px;
+
+}
+
+.meio-secundario-paragrafo {
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size:  24px;
+    color: black;
+}
+
+.rodape {
+    padding: 32px;
+    border-top: 0.4px solid black;
+}
+
+.imagem-rodape {
+    height: 100px;
+    display: block;
+    margin: 0 auto;
+    border-radius: 30px;
+}
+
